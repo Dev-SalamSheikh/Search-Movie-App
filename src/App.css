@@ -5,7 +5,7 @@ body {
   text-decoration: none;
   list-style: none;
   outline: none;
-  background-image: url("https://imgs.search.brave.com/HjRZek8rX2y38058chQzHqrvbXb0zv_GYpQQQc7wbig/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMud2FsbHBhcGVy/c2Rlbi5jb20vaW1h/Z2UvZG93bmxvYWQv/YXJ0aXN0aWMtY29s/b3JmdWwtd2ViX2JH/Vm9iV21VbVpxYXJh/V2twSlJuYW10bHJX/WnJaV1UuanBn");
+  background-image: url("https://images.pexels.com/photos/1643666/pexels-photo-1643666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,6 +24,22 @@ body {
   gap: 0.2rem;
   justify-content: center;
   padding: 20px;
+}
+
+.loader {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: #202020;
+}
+
+.loader h1 {
+  color: #fff;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
